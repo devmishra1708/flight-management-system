@@ -1,11 +1,13 @@
 import withPWA from "next-pwa";
 
-const nextConfig = {
-  turbopack: {},
-};
-
-export default withPWA({
+const withPWAConfig = withPWA({
   dest: "public",
   register: true,
   skipWaiting: true,
-})(nextConfig);
+});
+
+const nextConfig = {
+  // remove turbopack unless you actually configure it
+};
+
+export default withPWAConfig(nextConfig);
