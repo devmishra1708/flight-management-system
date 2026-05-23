@@ -1,36 +1,158 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ✈️ Flight Management System
 
-## Getting Started
+A real-time Flight Booking and Management System built using Next.js, Supabase, Zustand, and Tailwind CSS.
 
-First, run the development server:
+The platform allows users to search flights, select seats in real time, book tickets, manage bookings, cancel bookings, and reschedule flights through a modern responsive interface.
+
+---
+
+# 🚀 Features
+
+- User Authentication (Login / Signup)
+- Flight Search System
+- Real-Time Seat Availability
+- Flight Booking
+- Booking Confirmation with PNR
+- Booking Cancellation
+- Flight Rescheduling
+- Protected Routes
+- Responsive UI
+- Supabase Realtime Integration
+- Zustand State Management
+- Modern Tailwind CSS UI
+- Vercel Deployment Ready
+
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+- Next.js 16
+- React
+- Tailwind CSS
+- Zustand
+
+## Backend / Database
+- Supabase
+- PostgreSQL
+- Supabase Realtime
+
+## Deployment
+- Vercel
+
+---
+
+# 📂 Project Structure
+
+```bash
+app/
+components/
+public/
+src/lib/supabase/
+```
+
+---
+
+# 🔐 Demo Test Credentials
+
+## Test Account
+
+Email:
+```txt
+dev@test.com
+```
+
+Password:
+```txt
+12345678
+```
+
+Or create your own account using the Signup page.
+
+---
+
+# ⚙️ Installation & Setup
+
+## 1. Clone Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/flight-management-system.git
+```
+
+## 2. Navigate to Project
+
+```bash
+cd flight-management-system
+```
+
+## 3. Install Dependencies
+
+```bash
+npm install
+```
+
+## 4. Setup Environment Variables
+
+Create a `.env.local` file and add:
+
+```env
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
+
+---
+
+# ▶️ Run Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```txt
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+# 🌐 Live Demo
 
-To learn more about Next.js, take a look at the following resources:
+Add your deployed Vercel link here after deployment.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Example:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```txt
+https://flight-management-system.vercel.app
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# 📸 Main Functionalities
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Browse Available Flights
+- Live Seat Selection
+- Passenger Booking Form
+- Booking Management
+- Cancellation & Rescheduling
+- Authentication System
+
+---
+
+# 📌 Future Improvements
+
+- Admin Dashboard
+- Payment Gateway Integration
+- Flight Analytics
+- Email Notifications
+- Ticket PDF Generation
+- AI-Based Flight Recommendations
+
+---
+
+# 👨‍💻 Developed By
+
+Dev Mishra
+
+Built as a full-stack real-time flight booking platform using modern web technologies.
