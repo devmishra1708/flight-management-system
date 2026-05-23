@@ -124,7 +124,7 @@ Add your deployed Vercel link here after deployment.
 Example:
 
 ```txt
-[https://flight-management-system.vercel.app](https://flight-management-system-qogb.vercel.app/)
+https://flight-management-system-jb8z.vercel.app/
 ```
 
 ---
